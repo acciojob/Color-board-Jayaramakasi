@@ -29,5 +29,5 @@
             background-color: rgb(55,53,53);
             cursor: pointer;
             border-radius: 15%;
-            transition: background 1s cubic-bezier(0, 3.94, 0.31,-2.41);
+            transition: background 1s ease;
         }
