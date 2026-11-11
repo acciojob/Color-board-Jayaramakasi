@@ -15,11 +15,16 @@
 
                 e.target.style.boxShadow="1px 1px 1px gray" 
                 e.target.style.backgroundColor=`rgb(${red},${green},${blue})`
+				// setTimeout((e)=>{
+				// 	e.target.style.backgroundColor="rgb(55,53,53)"
+				// },1000)
+    //         })
             })
 
             div.addEventListener("mouseout",(e)=>{
                 setTimeout(()=>{
                     e.target.style.backgroundColor="rgb(55,53,53)"
+					e.target.style.transition="1s ease"
                     e.target.style.boxShadow="1px 1px 1px" 
                 }, 1000)
             })
