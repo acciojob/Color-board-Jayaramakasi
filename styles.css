@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+*{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .container{
+            height: 99vh;
+            width: 99vw;
+            background-color: black;
+            display: grid;
+            grid-template-columns: repeat(40,1fr);
+            grid-template-rows: repeat(20,1fr);
+            gap:4px;
+
+        }
+        .box{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(55,53,53);
+            cursor: pointer;
+            border-radius: 15%;
+            transition: background 1s cubic-bezier(0, 3.94, 0.31,-2.41);
+        }
